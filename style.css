@@ -1,0 +1,93 @@
+body {
+	background-color: tomato;
+}
+
+fieldset{
+	height: 590px;
+	color: aqua;
+	border-radius: 20px 20px 20px 20px;
+	width: 750px;
+	left: 20%;
+	border-width: 10px;
+	border-style: solid;
+	border-color: black;
+		
+}
+.vertical {
+    height: 617px;/*Altura da linha*/
+    border-left: 2px solid;/* Adiciona borda esquerda na div como ser fosse uma linha.*/
+    position: absolute;
+    left: 31%;
+    width: 150px;
+}
+#txt1{
+    color: black;
+    font-family: "Comic Sans MS";
+    position: relative;
+    left: 2%;
+}
+
+#lab1{
+    color: black;
+    font-family: "Comic Sans MS";
+    position: relative;
+    left: 13%;
+}
+
+
+#txt2{
+    color: black;
+    font-family: "Comic Sans MS";
+    position: relative;
+    left: 56%;
+    top: -69%;
+}
+
+#lab2{
+    color: black;
+    font-family: "Comic Sans MS";
+    position: relative;
+    left: 65%;
+    top: -69%;
+}
+#enviar1{
+    width: 170px;
+	height: 70px;
+	border-color: black;
+	border-radius: 10px 10px 10px 10px;
+	background-color: yellow;
+	position: absolute;
+	left: 35%;
+	top: 408px;
+	font-family: Comic Sans MS;
+	font-size: 33px
+}
+
+
+#enviar1:hover {
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale(1.2);
+	transform: scale(1.2)
+}
+
+#enviar1:focus {
+	color: black
+	outline: thin dotted;
+	outline: 0px auto -webkit-focus-ring-color;
+	outline-offset: 0px;
+}
+
+#textE {
+    position: absolute;
+    left: 815px;
+    top: 10px;
+}
+input{width: 150px;
+    height: 20px;
+    border-color: black;
+    border-radius: 10px 10px 10px 10px;
+    background-color: transparent;
+    position: relative;
+    font-family: Comic Sans MS;
+	font-size: 20px;
+}
