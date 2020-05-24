@@ -14,11 +14,11 @@ fieldset{
 		
 }
 .vertical {
-    height: 617px;/*Altura da linha*/
+    height: 517px;/*Altura da linha*/
     border-left: 2px solid;/* Adiciona borda esquerda na div como ser fosse uma linha.*/
     position: absolute;
     left: 31%;
-    width: 150px;
+    width: 20px;
 }
 #txt1{
     color: black;
@@ -71,7 +71,7 @@ fieldset{
 }
 
 #enviar1:focus {
-	color: black
+	color: black;
 	outline: thin dotted;
 	outline: 0px auto -webkit-focus-ring-color;
 	outline-offset: 0px;
